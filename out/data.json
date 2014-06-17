@@ -1,0 +1,79 @@
+{
+    "project": {},
+    "files": {
+        "index.js": {
+            "name": "index.js",
+            "modules": {},
+            "classes": {
+                "Person": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        }
+    },
+    "modules": {},
+    "classes": {
+        "Person": {
+            "name": "Person",
+            "shortname": "Person",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "index.js",
+            "line": 2,
+            "author": "Michael Kunzmann",
+            "copyright": "(C) 2014 SAP Labs LLC",
+            "license": "Apache 2.0"
+        }
+    },
+    "classitems": [
+        {
+            "file": "index.js",
+            "line": 9,
+            "itemtype": "method",
+            "name": "surname The surname of the person",
+            "type": "String",
+            "class": "Person"
+        },
+        {
+            "file": "index.js",
+            "line": 14,
+            "itemtype": "method",
+            "name": "firstname The firstname of the person",
+            "type": "String",
+            "class": "Person"
+        },
+        {
+            "file": "index.js",
+            "line": 20,
+            "itemtype": "method",
+            "name": "intro Introduces itself",
+            "type": "String",
+            "class": "Person"
+        }
+    ],
+    "warnings": [
+        {
+            "message": "unknown tag: copyright",
+            "line": " index.js:2"
+        },
+        {
+            "message": "unknown tag: license",
+            "line": " index.js:2"
+        },
+        {
+            "message": "replacing incorrect tag: member with method",
+            "line": " index.js:9"
+        },
+        {
+            "message": "replacing incorrect tag: member with method",
+            "line": " index.js:14"
+        },
+        {
+            "message": "replacing incorrect tag: member with method",
+            "line": " index.js:20"
+        }
+    ]
+}
