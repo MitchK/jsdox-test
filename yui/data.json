@@ -1,8 +1,15 @@
 {
     "project": {},
     "files": {
-        "index.js": {
-            "name": "index.js",
+        "jsdox-test.js": {
+            "name": "jsdox-test.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "yui-test.js": {
+            "name": "yui-test.js",
             "modules": {},
             "classes": {
                 "Person": 1
@@ -21,16 +28,17 @@
             "extensions": [],
             "plugin_for": [],
             "extension_for": [],
-            "file": "index.js",
+            "file": "yui-test.js",
             "line": 2,
             "author": "Michael Kunzmann",
             "copyright": "(C) 2014 SAP Labs LLC",
-            "license": "Apache 2.0"
+            "license": "Apache 2.0",
+            "is_constructor": 1
         }
     },
     "classitems": [
         {
-            "file": "index.js",
+            "file": "jsdox-test.js",
             "line": 9,
             "itemtype": "method",
             "name": "surname The surname of the person",
@@ -38,7 +46,7 @@
             "class": "Person"
         },
         {
-            "file": "index.js",
+            "file": "jsdox-test.js",
             "line": 14,
             "itemtype": "method",
             "name": "firstname The firstname of the person",
@@ -46,34 +54,68 @@
             "class": "Person"
         },
         {
-            "file": "index.js",
+            "file": "jsdox-test.js",
             "line": 20,
             "itemtype": "method",
             "name": "intro Introduces itself",
             "type": "String",
+            "class": "Person"
+        },
+        {
+            "file": "yui-test.js",
+            "line": 7,
+            "itemtype": "method",
+            "name": "surname The surname of the person",
+            "type": "String",
+            "class": "Person"
+        },
+        {
+            "file": "yui-test.js",
+            "line": 12,
+            "itemtype": "property",
+            "name": "",
+            "type": "{String}",
+            "class": "Person"
+        },
+        {
+            "file": "yui-test.js",
+            "line": 19,
+            "itemtype": "method",
+            "name": "intro",
+            "params": [
+                {
+                    "name": "intro",
+                    "description": "Introduces itself",
+                    "type": "String"
+                }
+            ],
             "class": "Person"
         }
     ],
     "warnings": [
         {
             "message": "unknown tag: copyright",
-            "line": " index.js:2"
+            "line": " jsdox-test.js:2"
         },
         {
             "message": "unknown tag: license",
-            "line": " index.js:2"
+            "line": " jsdox-test.js:2"
         },
         {
             "message": "replacing incorrect tag: member with method",
-            "line": " index.js:9"
+            "line": " jsdox-test.js:9"
         },
         {
             "message": "replacing incorrect tag: member with method",
-            "line": " index.js:14"
+            "line": " jsdox-test.js:14"
         },
         {
             "message": "replacing incorrect tag: member with method",
-            "line": " index.js:20"
+            "line": " jsdox-test.js:20"
+        },
+        {
+            "message": "replacing incorrect tag: member with method",
+            "line": " yui-test.js:7"
         }
     ]
 }
